@@ -1,0 +1,2 @@
+D:/Programming/Flutter/smart_cart_app/android/app/.cxx/Debug/1y2292q2/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/Programming/Flutter/smart_cart_app/android/app/.cxx/Debug/1y2292q2/armeabi-v7a/CMakeFiles/rebuild_cache.dir
