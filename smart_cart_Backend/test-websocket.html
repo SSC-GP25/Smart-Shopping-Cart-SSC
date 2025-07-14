@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socket.io Client Test</title>
+</head>
+<body>
+    <h1>Socket.io Test</h1>
+    <button id="sendLocationBtn">Send Location</button>
+
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script>
+        // Connect to the WebSocket server
+        // const socket = io("https://ssc-grad.up.railway.app"); // Use wss:// for SSL
+        const socket = io("http://localhost:3000");
+        // Log connection success
+        socket.on("connect", () => {
+            console.log("Connected to server with id:", socket.id);
+        });
+        // Handle send location button click
+        const sendBtn = document.getElementById("sendLocationBtn");
+        sendBtn.addEventListener("click", () => {
+            const locationData = {
+                id: 1,
+                lat: 29.851428450325297,
+                lng: 31.33983809650182,
+            };
+            console.log("Sending:", locationData);
+            socket.emit("cart-location", locationData);
+        });
+
+        //     sendBtn.addEventListener("click", () => {
+        //     const cart = [{
+        //         cartName:"SSC-Cart001",
+        //         cartID: 1,
+        //         userName: "John Doe",
+        //         userImg:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE4g-3ZH_1TjfN-zOuCRru2LrfrGtPbwaCsQ&s",
+        //         products:[
+        //             {   
+        //                 "productImg": "https://canadianbusiness.com/wp-content/uploads/2023/06/CanadianBusiness_ProductDevelopment_feature-1.jpg",
+        //                 "productName": "Product 1",
+        //                 "quantity": 2
+        //             },
+        //             {
+        //                 "productImg": "https://canadianbusiness.com/wp-content/uploads/2023/06/CanadianBusiness_ProductDevelopment_feature-1.jpg",
+        //                 "productName": "Product 2",
+        //                 "quantity": 5
+        //             }
+        //         ]
+        //     },
+        // {
+        //         cartName:"SSC-Cart001",
+        //         cartID: 1,
+        //         userName: "John Doe",
+        //         userImg:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE4g-3ZH_1TjfN-zOuCRru2LrfrGtPbwaCsQ&s",
+        //         products:[
+        //             {   
+        //                 "productImg": "https://canadianbusiness.com/wp-content/uploads/2023/06/CanadianBusiness_ProductDevelopment_feature-1.jpg",
+        //                 "productName": "Product 1",
+        //                 "quantity": 2
+        //             },
+        //             {
+        //                 "productImg": "https://canadianbusiness.com/wp-content/uploads/2023/06/CanadianBusiness_ProductDevelopment_feature-1.jpg",
+        //                 "productName": "Product 2",
+        //                 "quantity": 5
+        //             }
+        //         ]
+        //     },
+        // ];
+        //     console.log("Sending:", cart);
+        //     socket.emit("trackingCartProdcuts", cart);
+        // });
+
+        // Listen for server response
+        socket.on("cart-location", (msg) => {
+            console.log("Received from server:", msg);
+        });
+        // socket.on("trackingCartProdcuts", (msg) => {
+        //     console.log("Received from server:", msg);
+        // });        
+
+        // Handle connection errors
+        socket.on("connect_error", (error) => {
+            console.log("Connection Error:", error);
+        });
+
+        // Handle disconnect
+        socket.on("disconnect", () => {
+            console.log("Disconnected from server");
+        });
+    </script>
+</body>
+</html>
+cartUpdate

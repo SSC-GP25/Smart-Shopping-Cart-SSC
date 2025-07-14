@@ -1,0 +1,44 @@
+[
+  {
+    "Transaction_ID": "TRANS61340",
+    "Customer_ID": "CUST501",
+    "Item_ID": "755967",
+    "Product_Name": "Penguin Books Popular Non-Fiction",
+    "Product_Category": "Books",
+    "Product_Brand": "Books",
+    "Price": 111.46,
+    "rating": 5,
+    "Timestamp": 1750885551,
+    "Quantity": 1,
+    "Gender_Category": "Female",
+    "Customer_Gender": "Female"
+  },
+  {
+    "Transaction_ID": "TRANS95299",
+    "Customer_ID": "CUST501",
+    "Item_ID": "755967",
+    "Product_Name": "Penguin Books Popular Non-Fiction",
+    "Product_Category": "Books",
+    "Product_Brand": "Books",
+    "Price": 111.46,
+    "rating": 5,
+    "Timestamp": 1750885742,
+    "Quantity": 1,
+    "Gender_Category": "Female",
+    "Customer_Gender": "Female"
+  },
+  {
+    "Transaction_ID": "TRANS54161",
+    "Customer_ID": "CUST501",
+    "Item_ID": "755967",
+    "Product_Name": "Penguin Books Popular Non-Fiction",
+    "Product_Category": "Books",
+    "Product_Brand": "Books",
+    "Price": 111.46,
+    "rating": 5,
+    "Timestamp": 1750885752,
+    "Quantity": 1,
+    "Gender_Category": "Female",
+    "Customer_Gender": "Female"
+  }
+]

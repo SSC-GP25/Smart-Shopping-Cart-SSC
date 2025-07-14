@@ -1,0 +1,28 @@
+Transaction_ID,Customer_ID,Item_ID,Product_Name,Product_Category,Product_Brand,Price,rating,Timestamp,Quantity,Gender_Category,Customer_Gender
+3187507289,3971940284,797428,Afia Sunflower Cooking Oil,Food,Food,3484.35,4,2025-04-15T20:56:11.134Z,5,Female,Female
+3187507289,3971940284,288825,Bed Bath & Beyond Bathroom Accessories,Home Improvement,Home Improvement,116.86,1,2025-04-15T20:56:11.134Z,1,Female,Female
+5737472610,3971940284,797428,Afia Sunflower Cooking Oil,Food,Food,3484.35,5,2025-04-10T21:51:02.107Z,5,Female,Female
+5737472610,3971940284,288825,Bed Bath & Beyond Bathroom Accessories,Home Improvement,Home Improvement,116.86,5,2025-04-10T21:51:02.107Z,1,Female,Female
+7032788649,3971940284,202857,Samsung Galaxy Smartphone,Electronics,Electronics,90859.77,5,2025-04-16T16:24:15.559Z,3,Female,Female
+8482888997,3971940284,202857,Samsung Galaxy Smartphone,Electronics,Electronics,90859.77,5,2025-04-16T16:29:14.143Z,3,Female,Female
+3460493325,3971940284,202857,Samsung Galaxy Smartphone,Electronics,Electronics,90859.77,5,2025-04-16T16:29:56.215Z,3,Female,Female
+2330118562,3971940284,202857,Samsung Galaxy Smartphone,Electronics,Electronics,90859.77,5,2025-04-16T16:31:35.599Z,3,Female,Female
+6803113278,3971940284,202857,Samsung Galaxy Smartphone,Electronics,Electronics,90859.77,5,2025-04-16T16:32:17.486Z,3,Female,Female
+1072570964,3971940284,202857,Samsung Galaxy Smartphone,Electronics,Electronics,90859.77,5,2025-04-16T16:33:02.875Z,3,Female,Female
+7561071944,1914140401,755967,Penguin Books Popular Non-Fiction,Books,Books,222.92,5,2025-04-16T17:49:04.658Z,2,Female,Female
+3322136769,4,797428,Afia Sunflower Cooking Oil,Food,Food,3484.35,5,2025-04-17T01:38:35.940Z,5,Male,Male
+3322136769,4,288825,Bed Bath & Beyond Bathroom Accessories,Home Improvement,Home Improvement,116.86,5,2025-04-17T01:38:35.940Z,1,Male,Male
+2932159084,4,797428,Afia Sunflower Cooking Oil,Food,Food,3484.35,5,2025-04-17T01:43:18.616Z,5,Male,Male
+2932159084,4,288825,Bed Bath & Beyond Bathroom Accessories,Home Improvement,Home Improvement,116.86,5,2025-04-17T01:43:18.616Z,1,Male,Male
+1494782125,4,797428,Afia Sunflower Cooking Oil,Food,Food,3484.35,5,2025-04-17T01:45:15.974Z,5,Male,Male
+1494782125,4,288825,Bed Bath & Beyond Bathroom Accessories,Home Improvement,Home Improvement,116.86,5,2025-04-17T01:45:15.974Z,1,Male,Male
+3660261518,4,797428,Afia Sunflower Cooking Oil,Food,Food,3484.35,5,2025-04-17T01:46:04.857Z,5,Male,Male
+3660261518,4,288825,Bed Bath & Beyond Bathroom Accessories,Home Improvement,Home Improvement,116.86,5,2025-04-17T01:46:04.857Z,1,Male,Male
+9142447452,4,797428,Afia Sunflower Cooking Oil,Food,Food,3484.35,5,2025-04-17T01:52:32.825Z,5,Male,Male
+9142447452,4,288825,Bed Bath & Beyond Bathroom Accessories,Home Improvement,Home Improvement,116.86,5,2025-04-17T01:52:32.825Z,1,Male,Male
+9362801117,4,797428,Afia Sunflower Cooking Oil,Food,Food,3484.35,5,2025-04-17T01:53:39.682Z,5,Male,Male
+9362801117,4,288825,Bed Bath & Beyond Bathroom Accessories,Home Improvement,Home Improvement,116.86,5,2025-04-17T01:53:39.682Z,1,Male,Male
+8342648945,6599366562,797428,Afia Sunflower Cooking Oil,Food,Food,3484.35,5,2025-04-17T01:54:30.484Z,5,N/A,N/A
+8342648945,6599366562,288825,Bed Bath & Beyond Bathroom Accessories,Home Improvement,Home Improvement,116.86,5,2025-04-17T01:54:30.484Z,1,N/A,N/A
+3705337823,4,478461,Nike Running Shoes,Footwear,Clothing,3966.43,5,2025-04-18T12:14:13.267Z,1,Male,Male
+

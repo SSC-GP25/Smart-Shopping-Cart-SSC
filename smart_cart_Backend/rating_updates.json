@@ -1,0 +1,18 @@
+[
+  {
+    "Transaction_ID": 2051837377,
+    "Customer_ID": "CUST004",
+    "Item_ID": "478461",
+    "Product_Name": "Nike Running Shoes",
+    "Product_Category": "Footwear",
+    "Product_Brand": "Clothing",
+    "Price": 3966.43,
+    "rating": 4,
+    "Timestamp": "2025-06-21T23:49:49.357Z",
+    "Quantity": 1,
+    "Gender_Category": "Male",
+    "Customer_Gender": "Male",
+    "Payment_Method": "Visa",
+    "Total_Amount": 3967
+  }
+]
